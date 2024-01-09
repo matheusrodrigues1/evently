@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CheckoutButton = () => {
+const CategoryFilter = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const CheckoutButton = () => {
   )
 }
 
-export default CheckoutButton
+export default CategoryFilter
