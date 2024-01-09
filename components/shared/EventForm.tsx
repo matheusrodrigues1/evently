@@ -203,9 +203,9 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
                         className="filter-grey"
                       />
                       <p className="ml-3 whitespace-nowrap text-grey-600">Start Date:</p>
-                      <DatePicker 
-                        selected={field.value} 
-                        onChange={(date: Date) => field.onChange(date)} 
+                      <DatePicker
+                        selected={field.value}
+                        onChange={(date: Date) => field.onChange(date)}
                         showTimeSelect
                         timeInputLabel="Time:"
                         dateFormat="MM/dd/yyyy h:mm aa"
@@ -234,9 +234,9 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
                         className="filter-grey"
                       />
                       <p className="ml-3 whitespace-nowrap text-grey-600">End Date:</p>
-                      <DatePicker 
-                        selected={field.value} 
-                        onChange={(date: Date) => field.onChange(date)} 
+                      <DatePicker
+                        selected={field.value}
+                        onChange={(date: Date) => field.onChange(date)}
                         showTimeSelect
                         timeInputLabel="Time:"
                         dateFormat="MM/dd/yyyy h:mm aa"
@@ -274,25 +274,28 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
                           <FormItem>
                             <FormControl>
                               <div className="flex items-center">
-                                <label htmlFor="isFree" className="whitespace-nowrap pr-3 leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">Free Ticket</label>
+                                <label htmlFor="isFree" className="whitespace-nowrap pr-3 leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+                                  Free Ticket
+                                </label>
                                 <Checkbox
                                   onCheckedChange={field.onChange}
                                   checked={field.value}
-                                id="isFree" className="mr-2 h-5 w-5 border-2 border-primary-500" />
+                                  id="isFree" className="mr-2 h-5 w-5 border-2 border-primary-500"
+                                />
                               </div>
           
                             </FormControl>
                             <FormMessage />
                           </FormItem>
                         )}
-                      />   
+                      />
                     </div>
 
                   </FormControl>
                   <FormMessage />
                 </FormItem>
               )}
-            />   
+            />
            <FormField
               control={form.control}
               name="url"
@@ -318,7 +321,7 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
         </div>
 
 
-        <Button 
+        <Button
           type="submit"
           size="lg"
           disabled={form.formState.isSubmitting}
