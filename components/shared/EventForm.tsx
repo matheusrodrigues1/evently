@@ -150,7 +150,7 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
               render={({ field }) => (
                 <FormItem className="w-full">
                   <FormControl className="h-72">
-                    <FileUploader 
+                    <FileUploader
                       onFieldChange={field.onChange}
                       imageUrl={field.value}
                       setFiles={setFiles}
