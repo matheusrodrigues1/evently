@@ -102,3 +102,5 @@ const EventDetails = async ({ params: { id }, searchParams }: SearchParamProps) 
 }
 
 export default EventDetails
+
+
