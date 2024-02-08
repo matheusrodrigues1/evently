@@ -1,7 +1,7 @@
-# study.Async
+# Evently
 
 <p align="center">
-  Plataforma de Estudo Interativa para Diversas Áreas de Conhecimento
+Evently é uma plataforma de eventos online, oferecendo cadastro e participação em uma variedade de atividades. Com integrações Next.js, Stripe, Clerk e MongoDB, além da utilização do framework Tailwind CSS, proporciona uma experiência simplificada e segura para organizadores e participantes.
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
 ## Descrição do Projeto
 
 
-O aplicativo "Study Async" é uma plataforma de perguntas e respostas que permite aos usuários criar e responder perguntas em várias categorias, como Python, JavaScript, etc., com diferentes níveis de dificuldade. Os usuários podem se cadastrar para acessar todas as funcionalidades, incluindo a criação de perguntas, respostas e acompanhamento do seu desempenho.
+Evently é uma plataforma web para cadastro e participação em eventos. Os usuários podem registrar eventos com data, hora, preço e localização. Além disso, a plataforma oferece pagamento seguro com cartão de crédito, utilizando as integrações com Next.js para o frontend, Stripe para o processamento de pagamentos e Clerk para autenticação, simplificando o processo de inscrição e pagamento para os participantes.
 
 
 ![App web](./public/assets/images/01.png)
@@ -21,10 +21,10 @@ O aplicativo "Study Async" é uma plataforma de perguntas e respostas que permit
 
 ## Como Executar
 
-1. Clone o repositório: `git clone git@github.com:matheusrodrigues1/study.Async.git`
-2. Entre na pasta raiz do projeto: `cd study.Async`
-3. Ative o 'venv': `venv\Scripts\Activate`
-4. Rode o servidor: `python manage.py runserver`
+1. Clone o repositório: `git clone git@github.com:matheusrodrigues1/evently.git`
+2. Entre na pasta raiz do projeto: `cd evently`
+3. Instale as dependência: `npm install`
+4. Rode o servidor: `npm run dev`
 
 ## Autor
 
