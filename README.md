@@ -5,9 +5,11 @@ Evently é uma plataforma de eventos online, oferecendo cadastro e participaçã
 </p>
 
 <p align="center">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3.12-blue" />
-  <img alt="Django" src="https://img.shields.io/badge/Django-5.0.2-yellow" />
-  <img alt="SQLite" src="https://img.shields.io/badge/SQLite-3.45.1-pink" />
+  <img alt="Python" src="https://img.shields.io/badge/Nextjs-14-black" />
+  <img alt="Django" src="https://img.shields.io/badge/Typescript-5-blue" />
+  <img alt="SQLite" src="https://img.shields.io/badge/Stripe-14.11.0-pink" />
+  <img alt="SQLite" src="https://img.shields.io/badge/MongoDB-6.3.0-green" />
+  <img alt="SQLite" src="https://img.shields.io/badge/Clerk-2.1.0-orange" />
 </p>
 
 ## Descrição do Projeto
