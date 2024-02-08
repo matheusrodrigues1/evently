@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# study.Async
 
-## Getting Started
+<p align="center">
+  Plataforma de Estudo Interativa para Diversas Áreas de Conhecimento
+</p>
 
-First, run the development server:
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.12-blue" />
+  <img alt="Django" src="https://img.shields.io/badge/Django-5.0.2-yellow" />
+  <img alt="SQLite" src="https://img.shields.io/badge/SQLite-3.45.1-pink" />
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Descrição do Projeto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+O aplicativo "Study Async" é uma plataforma de perguntas e respostas que permite aos usuários criar e responder perguntas em várias categorias, como Python, JavaScript, etc., com diferentes níveis de dificuldade. Os usuários podem se cadastrar para acessar todas as funcionalidades, incluindo a criação de perguntas, respostas e acompanhamento do seu desempenho.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+![App web](./public/assets/images/01.png)
+![App web](./public/assets/images/02.png)
 
-To learn more about Next.js, take a look at the following resources:
+## Como Executar
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone o repositório: `git clone git@github.com:matheusrodrigues1/study.Async.git`
+2. Entre na pasta raiz do projeto: `cd study.Async`
+3. Ative o 'venv': `venv\Scripts\Activate`
+4. Rode o servidor: `python manage.py runserver`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Autor
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+✉️: [Email](carlostech873@gmail.com)</br>
+📄: [Currículo](https://drive.google.com/file/d/1Jfn9RAqFR3YaQbL8j_lJA0z8HHlLI3Xq/view?pli=1)</br>
+💼: [Linkedin](https://www.linkedin.com/in/matheus-rodrigues-1a1899231/)</br>
+📸: [Instagram](https://www.instagram.com/math.eusrrodrigues/)
