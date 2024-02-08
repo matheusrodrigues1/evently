@@ -16,6 +16,14 @@ Evently é uma plataforma de eventos online, oferecendo cadastro e participaçã
 
 
 Evently é uma plataforma web para cadastro e participação em eventos. Os usuários podem registrar eventos com data, hora, preço e localização. Além disso, a plataforma oferece pagamento seguro com cartão de crédito, utilizando as integrações com Next.js para o frontend, Stripe para o processamento de pagamentos e Clerk para autenticação, simplificando o processo de inscrição e pagamento para os participantes.
+</br>
+</br>
+</br>
+</br>
+  Clique aqui  ↓↓↓</br>
+  [Link App Evently](evently-chi-two.vercel.app)
+
+
 
 
 ![App web](./public/assets/images/01.png)
